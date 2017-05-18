@@ -2,9 +2,13 @@ package com.pukarmainali.dao.impl;
 
 import javax.persistence.Query;
 
+import org.springframework.stereotype.Repository;
+
 import com.pukarmainali.dao.UserCredentialsDao;
 import com.pukarmainali.domain.UserCredentials;
 
+
+@Repository
 public class UserCredentialsDaoImpl extends GenericDaoImpl<UserCredentials> implements UserCredentialsDao {
 	
 	public UserCredentialsDaoImpl(){

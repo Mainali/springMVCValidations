@@ -20,25 +20,21 @@ public class UserServiceImpl implements UserService{
 
 	@Override
 	public void save(User user) {
-		// TODO Auto-generated method stub
 		userDoa.save(user);
 	}
 
 	@Override
 	public void saveFull(User user) {
-		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
 	public List<User> findAll() {
-		// TODO Auto-generated method stub
 		return (List<User>)userDoa.findAll();
 	}
 
 	@Override
 	public User findOne(Long id) {
-		// TODO Auto-generated method stub
 		return userDoa.findOne(id);
 	}
 
